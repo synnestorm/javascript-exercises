@@ -14,17 +14,16 @@ const lastName = "Stevenson";
 const thisYear = 1965;
 const birthYear = 1947;
 
-console.log(
+const greeting =
   "Hello! My name is " +
-    firstName +
-    " " +
-    lastName +
-    " " +
-    "and I am" +
-    " " +
-    (thisYear - birthYear) +
-    " years old"
-);
+  firstName +
+  " " +
+  lastName +
+  " and I am " +
+  (thisYear - birthYear) +
+  " years old";
+
+console.log(greeting);
 
 // Do not change this
 module.exports = {
