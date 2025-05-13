@@ -23,8 +23,7 @@ console.log(
     "and I am" +
     " " +
     (thisYear - birthYear) +
-    " " +
-    "years old"
+    " years old"
 );
 
 // Do not change this
