@@ -21,7 +21,7 @@ const greeting =
   lastName +
   " and I am " +
   (thisYear - birthYear) +
-  " years old";
+  " years old.";
 
 console.log(greeting);
 
